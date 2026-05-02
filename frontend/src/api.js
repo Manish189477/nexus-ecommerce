@@ -12,7 +12,7 @@ function getSessionId() {
 }
 
 const api = axios.create({
-baseURL: process.env.REACT_APP_API_URL || "http://localhost:4000",
+baseURL: "https://nexus-ecommerce-production.up.railway.app",
   headers: { "Content-Type": "application/json" },
 });
 
