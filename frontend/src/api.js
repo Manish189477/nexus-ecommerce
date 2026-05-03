@@ -12,7 +12,7 @@ function getSessionId() {
 }
 
 const api = axios.create({
-baseURL: "https://nexus-ecommerce-production.up.railway.app",
+baseURL: "https://nexus-ecommerce-production-f1df.up.railway.app",
   headers: { "Content-Type": "application/json" },
 });
 
